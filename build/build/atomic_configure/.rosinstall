@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/user/lidar_segway_connection/build/devel/setup.sh

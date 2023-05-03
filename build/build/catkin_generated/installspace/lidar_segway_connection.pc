@@ -1,0 +1,8 @@
+prefix=/home/user/lidar_segway_connection/build/install
+
+Name: lidar_segway_connection
+Description: Description of lidar_segway_connection
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime roscpp std_msgs geometry_msgs sensor_msgs

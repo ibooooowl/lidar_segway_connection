@@ -1,0 +1,2 @@
+.
+-DCATKIN_DEVEL_PREFIX=/home/user/lidar_segway_connection/build/devel -DCMAKE_INSTALL_PREFIX=/home/user/lidar_segway_connection/build/install -G Unix Makefiles

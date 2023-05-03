@@ -1,0 +1,11 @@
+<launch>
+  <!-- Launch the lidar_segway_connection node -->
+  <node pkg="lidar_segway_connection" type="lidar_segway_connection_node" name="lidar_segway_connectionA" output="screen"/>
+
+  <!-- Remap the lidar_data topic to the correct topic -->
+  <remap from="lidar_data" to="/laser/scan"/>
+
+  <!-- Set the parameters for the lidar_segway_connection node -->
+  <param name="max_linear_velocity" value="1.0"/>
+  <param name="max_angular_velocity" value="0.5"/>
+</launch>
